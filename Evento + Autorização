@@ -1,0 +1,9 @@
+print("The event starts today!")
+
+idade = int(input(f"What's your age?: "))
+ingresso = input(f"Does it have a ticket?: ")
+
+if idade>=18 and ingresso.lower() == "yes":
+  print(f"You are allow!")
+else:
+    print("You are not allow it!")
