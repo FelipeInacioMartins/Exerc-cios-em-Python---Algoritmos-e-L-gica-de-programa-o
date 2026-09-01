@@ -1,0 +1,29 @@
+print("Dobro, Triplo, Antecessor e Sucessor de um número")
+numero = float(input("Digite um número: "))
+
+dobro = numero * 2
+triplo = numero * 3
+antecessor = numero - 1
+sucessor = numero + 1
+
+print("Dobro: ", dobro)
+print("Triplo: ", triplo)
+print("Antecessor: ", antecessor)
+print("Sucessor: ", sucessor)
+
+print("\n Calculo da area do triangulo")
+base = float(input("Digite o valor da base: "))
+altura = float(input("Digite o valor da altura: "))
+
+area = base * altura / 2
+
+print("O valor da area é: ", area)
+
+print("\n Perimetro de um retângulo")
+
+comprimento = float(input("Digite o comprimento: "))
+largura = float(input("Digite a largura: "))
+
+perimetro = 2 * (comprimento + largura)
+
+print("O valor do perímetro do retângulo é: ", perimetro)
