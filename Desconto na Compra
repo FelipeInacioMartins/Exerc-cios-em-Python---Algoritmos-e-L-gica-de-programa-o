@@ -1,0 +1,11 @@
+print("Purchase calculator")
+
+price = float(input("Enter the price: R$"))
+
+discount = input("Does it have a discount? (yes/no): ")
+
+if discount.lower() == "yes":
+  final_price = price - (price * 0.10)
+  print(f"Final price: R$ {final_price:.2f}")
+else:
+  print(f"No discount. Your final price: R$ {price:.2f}")
