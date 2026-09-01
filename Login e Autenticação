@@ -1,0 +1,9 @@
+print("Authentication and Login")
+
+password = int(input("Send the password: "))
+authentication = input("Written the authentication: ")
+
+if password == 244 and authentication == "douchebag":
+  print(f"Allow it!")
+else:
+  print(f"You're not allow it! ")
