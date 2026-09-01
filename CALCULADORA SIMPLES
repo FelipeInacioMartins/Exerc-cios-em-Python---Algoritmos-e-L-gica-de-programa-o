@@ -1,0 +1,22 @@
+print("Calculadora simples\n")
+
+num1 = float(input("Insira um número: "))
+
+num2 = float(input("Insira outro número: "))
+
+operador = input("Insira o operador (+, -, *, /): ")
+
+if operador == "+":
+  (num1 + num2)
+
+if operador == "-":
+  (num1 - num2)
+
+if operador == "*":
+  (num1 - num2)
+
+if operador == "/":
+  if num2 or num1 != 0:
+    print(num1 / num2)
+else:
+    print("Não existe divisão")
