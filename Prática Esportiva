@@ -1,0 +1,10 @@
+print("======= Prática esportiva: Autorização + idade ======= \n ")
+
+idade = int(input("Insira a sua idade \n"))
+
+autorizacao = str(input("\nPossui autorização? sim/não: ")).lower() == "sim"
+
+if idade >= 12 and idade <= 18 and autorizacao == True:
+  print("\n Autorizado!")
+else:
+  print("\n Negado!")
